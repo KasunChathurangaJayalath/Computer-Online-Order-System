@@ -1,0 +1,173 @@
+
+body {
+    color: #fff;
+    font: 87.5%/1.5em 'Open Sans', sans-serif;
+    background:url(../images/web10.jpg)     no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+  
+  /********************************
+    Login form style       @Batt99      
+    *******************************/
+  
+  .form-wrapper {
+  width: 400px;
+  height: 470px;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin: -184px 0px 0px -155px;
+    background: rgba(0,0,0,0.65);
+    padding: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+    box-shadow: 0px 0px 25px 15px #07d3ee;
+  }
+  
+
+  .form-item {
+  width:100%;
+  
+  
+ 
+  }
+  
+  /********************************
+    Heading text edit         @Batt99
+    *******************************/
+  
+  h3{
+    font-size: 25px;
+    font-weight: 640;
+    margin-bottom: 10px;
+    color: #e7e7e7;
+    padding:6px;
+    font-family:'sans-serif','helvetica';
+  }
+  /********************************
+    Text fields text,feild style     @Batt99
+    *******************************/
+  
+  
+  .form-item input{
+    border: none;
+    background:transparent ;
+    color:  #FFFF00;
+    font-weight: bold;
+    margin-top:11px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    height: 49px;
+    padding: 0 16px;
+    width: 100%;
+    padding-left: 55px;
+  
+  
+  }
+
+  textarea:focus, input:focus {
+    color: 	#000000;
+  }
+/********************************
+    Text fields add icon     @Batt99
+    *******************************/
+
+
+  input[type='password']{
+      background: transparent url("../images/pass.jpg") no-repeat;
+      background-position: 10px 50%;
+  }
+  input[type='text']{
+      background: transparent url("../images/user.jpg") no-repeat;
+      background-position: 10px 50%;
+  }
+  input[type='email']{
+    background: transparent url("../images/email4.png") no-repeat;
+    background-position: 6px 50%;
+  
+  }
+  /********************************
+    text field color change focus     @Batt99
+    *******************************/
+  .form-item input:focus {
+    outline: none;
+    border:1.4px solid #cfecf0;
+    background: #ffffff;
+    font-weight:bold;
+    
+  }
+  /********************************
+    text field color change hover      @Batt99
+    *******************************/
+  .form-item input:hover {
+    outline: none;
+    border:1.4px solid #cfecf0;
+   
+  }
+  
+  
+  .button-panel {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+   
+  }
+  /********************************
+    Log button  style     @Batt99
+    *******************************/
+  
+  .button-panel .button {
+    background: #00b6df;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    font-family: 'helvetica','Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight:bold;
+    transition: background 0.6s linear;
+    width: 100%;
+    margin-top:10px;
+  
+  
+  }
+  /********************************
+    Log button color change     @Batt99
+    *******************************/
+  
+  .button:hover {
+    background: #007bff;
+  
+  }
+  /********************************
+    Buttons radius     @Batt99
+    *******************************/
+  
+  .form-item input, .button-panel .button {
+   
+     border-radius: 25px;  
+    border-top-left-radius:25px;  
+    border-top-right-radius:25px;  
+    border-bottom-right-radius:25px;  
+    border-bottom-left-radius:25px; 
+  }
+  
+  .reminder {
+    text-align: center;
+  }
+  
+  .reminder a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .reminder a:hover {
+    color: #f72f39;
+  }
+ 
+
+

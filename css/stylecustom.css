@@ -1,0 +1,128 @@
+.header_style_01 .navbar-default .navbar-nav > li a.active {
+    color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgb(5 16 44 / 15%);
+    border-radius: 25px 0px 25px 0px;
+    background: #fd6802;
+}
+.header_style_01 .navbar-default .navbar-nav > li:focus a {
+    color: #ffffff;
+	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
+	border-radius: 25px 0px 25px 0px;
+	background: #fd6802;
+}
+
+.header_style_01 .navbar-right > li {
+    margin-top: 2px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+    .header_style_01 .navbar-default .navbar-nav > li a {
+        color: #fdf6f6;
+        padding: 15px 15px;
+        font-weight: bolder;
+        right: 0%;
+    }
+    .navbar-default {
+        background: linear-gradient(45deg, #000000,  #393939) fixed;
+        border-color: #e7e7e7;
+    }
+    .navbar-default {
+        background-color: #f8f8f8;
+        border-color: #000000;
+    }
+
+    .home-one-slider-otem::before {
+        content: "";
+        position: absolute;
+        background: rgba(0,0,0, 0.8);
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 100%;
+        z-index: 1;
+    }
+
+    .container {
+        padding-right: 0px;
+        padding-left: 0px; 
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+   
+    
+
+    
+   .updateproduct {
+    background:url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login.png') no-repeat 20px 5px #007aff;
+     width: 200px;
+     cursor:pointer;
+     border-radius:40px;
+     padding:10px 20px 10px 0;
+     color:rgb(255, 255, 255);
+     font-size:14px;
+     text-align:center;
+     color:white;
+     font-weight: 500;
+     text-indent:40px;
+     display:block;
+     margin:0 auto;
+     border:1px solid rgb(251, 251, 255);
+    
+     /* Animations: */
+     -webkit-transition-timing-function: ease-in-out;
+     -webkit-transition-duration: .4s;
+     -webkit-transition-property: all;
+     
+     -moz-transition-timing-function: ease-in-out;
+     -moz-transition-duration: .4s;
+     -moz-transition-property: all;
+   }
+   
+   .updateproduct:hover {
+     background-image: url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login-hover.png');
+     background-position: 65px 5px;
+     text-indent: 20px;  
+     background-color: green  
+   }
+
+
+   .continueshoping {
+    background:url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login.png') no-repeat 10px 5px #eea236;
+     width: 200px;
+     cursor:pointer;
+     border-radius:40px;
+     padding:10px 20px 10px 0;
+     color:rgb(255, 255, 255);
+     font-size:14px;
+     text-align:center;
+     color:white;
+     font-weight: 500;
+     text-indent:40px;
+     display:block;
+     margin:0 auto;
+     border:1px solid rgb(251, 251, 255);
+     left: 100px;
+    
+     /* Animations: */
+     -webkit-transition-timing-function: ease-in-out;
+     -webkit-transition-duration: .4s;
+     -webkit-transition-property: all;
+     
+     -moz-transition-timing-function: ease-in-out;
+     -moz-transition-duration: .4s;
+     -moz-transition-property: all;
+   }
+   
+   .continueshoping:hover {
+     background-image: url('https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login-hover.png');
+     background-position: 65px 5px;
+     text-indent: 20px;  
+     background-color: #f0ad4e;  
+   }
+   #link {  font-size: 18px; left:100px; }
